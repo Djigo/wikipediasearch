@@ -1,0 +1,116 @@
+body {
+    background: #F7D17C;
+}
+
+h1{
+    font-family: 'Changa', sans-serif;
+    color: #F55648;
+    font-weight: 700;
+    display:block;
+    margin: 50px auto;
+    width:505px;
+}
+
+.box {
+    display:none;
+}
+
+.box .fa-window-close{
+    position: absolute;
+    top:20px;
+    right:20px;
+    color: #F55648;
+}
+
+.box .fa-window-close:hover{
+color: #F61119;
+}
+
+.box .inner{
+}
+
+.mainBox {
+    margin: 0 auto;
+    width: 500px;
+}
+
+
+
+.mainBox a {
+    cursor: pointer;
+    font-family: 'Changa', sans-serif;
+    margin: -2px;
+    padding: 30px 50px;
+    text-align: center;
+}
+
+.mainBox .searchButton {
+    border-right: 5px solid #fff;
+}
+
+.mainBox .inner i {
+    display: block;
+    font-size: 150px;
+    margin: 0 0 20px 0;
+}
+
+.mainBox a {
+    color: #F55648;
+    display: inline-block;
+}
+
+.mainBox a:hover {
+    color: #F61119;
+    text-decoration: none;
+}
+
+
+.searchBox {
+    margin: 0 auto;
+    width: 500px;
+    display:none;
+}
+
+.searchBox .enterText {
+    position: relative;
+}
+
+.searchBox input {
+    box-sizing: border-box;
+    font-size: 50px;
+    padding: 0 180px 0 20px;
+    width: 100%;
+    border-radius: 20px;
+    border:0px #fff;
+}
+
+.searchBox button {
+    border-radius: 0 20px 20px 0;
+    font-size: 46px;
+    height: 75px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    width: 85px;
+    border:0px #fff;
+}
+
+.btn-primary {
+    background: #F55648;
+    border-color: #F61119;
+}
+
+.btn-primary:hover {
+    background: #F61119;
+}
+
+.resultBox{
+    margin: 40px 0;
+}
+
+.searchResult {
+    display: inline-block;
+    vertical-align: top;
+    width:23%;
+    margin:0 10px 10px 0;
+}
