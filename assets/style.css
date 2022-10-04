@@ -1,0 +1,106 @@
+body {
+    background: #F7D17C;
+}
+
+.box {
+    display:none;
+}
+
+.box .fa-window-close{
+    position: absolute;
+    top:20px;
+    right:20px;
+    color: #F55648;
+}
+
+.box .fa-window-close:hover{
+color: #F61119;
+}
+
+.box .inner{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.mainBox {
+    margin: 0 auto;
+    width: 500px;
+}
+
+
+
+.mainBox a {
+    cursor: pointer;
+    font-family: 'Changa', sans-serif;
+    margin: -2px;
+    padding: 30px 50px;
+    text-align: center;
+}
+
+.mainBox .searchButton {
+    border-right: 5px solid #fff;
+}
+
+.mainBox .inner i {
+    display: block;
+    font-size: 150px;
+    margin: 0 0 20px 0;
+}
+
+.mainBox a {
+    color: #F55648;
+    display: inline-block;
+}
+
+.mainBox a:hover {
+    color: #F61119;
+    text-decoration: none;
+}
+
+
+.searchBox {
+    margin: 0 auto;
+    width: 1000px;
+    display:none;
+}
+
+.searchBox .enterText {
+    position: relative;
+}
+
+.searchBox input {
+    box-sizing: border-box;
+    font-size: 100px;
+    padding: 0 180px 0 20px;
+    width: 100%;
+}
+
+.searchBox button {
+    border-radius: 0 5px 5px 0;
+    font-size: 80px;
+    height: 156px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    width: 170px;
+}
+
+.btn-primary {
+    background: #F55648;
+    border-color: #F61119;
+}
+
+.btn-primary:hover {
+    background: #F61119;
+}
+
+.resultBox{
+    margin: 40px 0;
+}
+
+.searchResult {
+    display: inline-block;
+    vertical-align: top;
+    width:23%;
+    margin:0 10px 10px 0;
+}
