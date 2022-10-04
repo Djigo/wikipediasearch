@@ -27,11 +27,14 @@ color: #F61119;
 }
 
 .box .inner{
+    display:block;
 }
+
 
 .mainBox {
     margin: 0 auto;
     width: 500px;
+    
 }
 
 
