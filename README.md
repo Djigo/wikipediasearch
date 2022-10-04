@@ -1,2 +1,2 @@
 # wikipediasearch
-Find interesting facts on Wikipedia
+Find interesting facts on Wikipedia with Ani.js animations
