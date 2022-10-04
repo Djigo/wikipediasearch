@@ -2,6 +2,15 @@ body {
     background: #F7D17C;
 }
 
+h1{
+    font-family: 'Changa', sans-serif;
+    color: #F55648;
+    font-weight: 700;
+    display:block;
+    margin: 50px auto;
+    width:500px;
+}
+
 .box {
     display:none;
 }
@@ -18,8 +27,6 @@ color: #F61119;
 }
 
 .box .inner{
-    display: table-cell;
-    vertical-align: middle;
 }
 
 .mainBox {
@@ -60,7 +67,7 @@ color: #F61119;
 
 .searchBox {
     margin: 0 auto;
-    width: 1000px;
+    width: 500px;
     display:none;
 }
 
@@ -70,19 +77,22 @@ color: #F61119;
 
 .searchBox input {
     box-sizing: border-box;
-    font-size: 100px;
+    font-size: 50px;
     padding: 0 180px 0 20px;
     width: 100%;
+    border-radius: 20px;
+    border:0px #fff;
 }
 
 .searchBox button {
-    border-radius: 0 5px 5px 0;
-    font-size: 80px;
-    height: 156px;
+    border-radius: 0 20px 20px 0;
+    font-size: 46px;
+    height: 75px;
     position: absolute;
     right: 0px;
     top: 0px;
-    width: 170px;
+    width: 85px;
+    border:0px #fff;
 }
 
 .btn-primary {
