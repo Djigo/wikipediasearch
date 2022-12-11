@@ -17,7 +17,7 @@ function getResults() {
     var query = $('.query').val();
     $.ajax({
         type: "GET",
-        url: 'http://en.wikipedia.org/w/api.php?action=opensearch&search=' + query + '&callback=?',
+        url: 'https://en.wikipedia.org/w/api.php?action=opensearch&search=' + query + '&callback=?',
         dataType: 'json',
         async: false,
         success: showResults
