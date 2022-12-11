@@ -1,2 +1,2 @@
 # wikipediately
-Find interesting facts on Wikipedia with Ani.js animations
+Find interesting facts and topics on Wikipedia with Ani.js animations
